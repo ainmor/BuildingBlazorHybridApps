@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
 
-namespace CoffeeBrowser.Maui.Data;
+namespace CoffeeBrowser.Lib.Data;
 
 public record Coffee(string Name, string Description);

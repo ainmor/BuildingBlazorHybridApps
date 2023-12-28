@@ -65,7 +65,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CoffeeBrowser.Library\CoffeeBrowser.Library.csproj" />
+      <ProjectReference Include="..\CoffeeBrowser.Lib\CoffeeBrowser.Lib.csproj" />
     </ItemGroup>
 
     <ItemGroup>

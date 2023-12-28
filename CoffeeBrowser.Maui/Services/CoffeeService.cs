@@ -1,7 +1,8 @@
-﻿using System;
+﻿using CoffeeBrowser.Lib.Data;
+using CoffeeBrowser.Lib.Interfaces;
+using System;
 using System.Linq;
 using System.Net.Http.Json;
-using CoffeeBrowser.Maui.Data;
 
 namespace CoffeeBrowser.Maui.Services;
 

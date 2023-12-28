@@ -1,8 +1,8 @@
-﻿using CoffeeBrowser.Library.Data;
+﻿using CoffeeBrowser.Lib.Data;
 using System;
 using System.Linq;
 
-namespace CoffeeBrowser.Library.Interfaces;
+namespace CoffeeBrowser.Lib.Interfaces;
 
 public interface ICoffeeService
 {

@@ -1,5 +1,4 @@
 ﻿@page "/coffees"
-@using CoffeeBrowser.Maui.Data
 @inject ICoffeeService CoffeeService
 
 <h3>Coffees</h3>
@@ -15,7 +14,7 @@ else
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Description</th> 
+                <th>Description</th>
             </tr>
         </thead>
         <tbody>
@@ -23,15 +22,15 @@ else
             {
                 <tr>
                     <td>@coffee.Name</td>
-                    <td>@coffee.Description</td> 
+                    <td>@coffee.Description</td>
                 </tr>
             }
-        </tbody> 
+        </tbody>
     </table>
-} 
+}
 
 @code {
-    private IEnumerable<Coffee> _coffees = null;
+    private IEnumerable<CoffeeBrowser.Lib.Data.Coffee> _coffees = null;
 
     protected override async Task OnInitializedAsync()
     {
